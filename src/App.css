@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #111741;
+    height: 100px;
+    padding-top: 30px;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.navbar-item{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin: 20px 50px;
+}
+
+.active{
+    border-bottom: 1px solid white;
+}
+.counter{
+    padding-right: 40px;
+    color: red;
+    font-size: 20px;
+}
+
+.product-list{
+    padding: 26px;
+}
+.product-item{
+    padding: 10px;
+}
+h3,p{
+    padding-bottom: 6px;
+}
+p{
+    font-size: 18px;
+}
+
+button{
+    padding: 5px 12px;
+    border-radius: 6px;
+    margin: 8px;
+}
